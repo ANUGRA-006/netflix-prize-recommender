@@ -1,0 +1,20 @@
+# Core scientific stack
+numpy>=1.26,<2.5
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+
+# Recommender models (pin: 1.1.5 ships the NumPy-2-compatible build)
+scikit-surprise==1.1.5
+
+# Plotting (EDA + comparison chart)
+matplotlib>=3.7
+seaborn>=0.12
+
+# Pipeline plumbing
+PyYAML>=6.0
+joblib>=1.3
+pyarrow>=12.0      # parquet artifacts
+
+# Optional: interactive dashboard in the notebook
+ipywidgets>=8.0
